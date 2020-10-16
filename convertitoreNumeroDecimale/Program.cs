@@ -9,9 +9,9 @@ namespace convertitoreNumeroDecimale
             int resto;
             string numeroconvertito = "";
 
-            Console.WriteLine("inserisci la base in cui vuoi convertire");
+            Console.WriteLine("inserisci la base in cui vuoi convertire:");
             int BaseConvert = Convert.ToInt32(Console.ReadLine());
-            Console.WriteLine("inserisci un numero decimale");
+            Console.WriteLine("inserisci un numero decimale:");
             int dec = Convert.ToInt32(Console.ReadLine());
             while (dec > 0)
             {
